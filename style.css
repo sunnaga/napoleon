@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: "Kanit", serif;
+}
+
+
+/* NAV */
+
+nav{
+    background-color: #250915;
+    color: white;
+    display: flex;
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    font-size: 40px;
+}
+
+nav img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav a{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    text-shadow: 3px 1px 1px #9a9e9b;
+    transition: all ease .3s;
+}
+
+nav a:hover{
+    scale: 1.5;
+    text-shadow: 1px 1px 10px white;
+}
+
+/* Header */
+
+header {
+
+}
+
+header img{
+    width: 100%;
+}
+
