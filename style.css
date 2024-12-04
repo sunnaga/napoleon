@@ -51,10 +51,6 @@ nav a:hover{
 
 /* Header */
 
-header {
-
-}
-
 header img{
     width: 100%;
     height: 700px;
@@ -62,25 +58,45 @@ header img{
     object-position: 0% -20%;
 }
 
-/* 1st sect */
+/* sect */
 
-.first-sect{
+.sect{
     padding: 5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.first-sect img{
+.sect img{
+    align-self: center;
     width: 50vw;
     height: 80vh;
     object-fit: cover;
     object-position: 100% 10%;
     padding: 1rem;
     border-radius: 50px;
+    border: 2px solid white;
 }
 
-.first-sect p{
+.sect p{
     align-self: center;
     font-size: 35px;
     padding: 1rem;
+    border: 4px solid #250915;
+    border-radius: 50px;
+}
+
+.black{
+    background-color: #250915;
+    color: white;
+}
+
+.white{
+    background-color: white;
+    color: #250915;
+}
+
+/* Footer */
+
+footer{
+    text-align: center;
 }
